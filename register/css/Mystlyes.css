@@ -1,0 +1,179 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: white !important;
+}
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+#page-wrapper {
+    flex: 1;
+	margin-top:vh;
+}
+.page-head{
+
+}
+/*Styling the form*/
+
+form{
+	background-color: ;
+}
+.link{
+
+}
+.link a:hover{
+	color: #780A14;
+}
+.form-panel{
+	background-color:;
+	width: 28vw;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top:1vh; 
+}
+
+.form-heading{
+	font-weight: bold;
+	background-color:#780A14; 
+	font-size: 20px;
+	color: white;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+
+}
+.form-field{
+	margin-top:0.5vh;
+}
+.reg-btn-sbt{
+	padding-bottom: 10px;
+
+}
+label{
+	color: #780A14;
+	font-weight: bold;
+}
+button{
+	font-size: larger; 
+	background-color: ;
+	cursor: pointer;
+	height: 40px;
+	width: 350px;
+	border-style: solid;
+	border-color: #780A14;
+	border-width: thin;
+	border-radius: 5px;
+
+}
+button:hover{
+	background-color: #780A14;
+	color: white;
+}
+
+.custom-button {
+    background-color: #780A14;
+    border-color: #780A14;
+    color: white !important;
+    font-size: 15px;
+	text-align: center;
+	margin-top: 5px;
+	height: 40px;
+	width: 350px;
+    text-decoration:none;
+	font-style: normal; 
+    display: inline-block; 
+    cursor: pointer; 
+    border-radius: 5px; 
+	border-style: solid;
+	border-width: thin;
+}
+
+.custom-button:hover {
+    background-color: #5C0810; /* Slightly darker shade for hover effect */
+}
+
+select{
+	width: 50%;
+	background-color: whitesmoke;
+	color: #780A14;
+
+}
+input:hover, select:hover{
+	background-color: transparent;
+}
+
+a{
+	text-decoration: none;
+}
+footer {
+    background-color: rgb(56, 56, 56);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: large;
+    /* Ensure the footer is always at the bottom */
+    margin-top: auto;
+}
+.footer a:hover{
+	color: white;
+	text-decoration: underline;
+}
+footer hr {
+    display: none; /* Hide the <hr> element if present */
+}
+
+a:visited{
+	color: black;
+}
+a:hover{
+	cursor: pointer;
+}
+
+/*Dropdown menue*/
+nav{
+	padding-top: 10px;
+	margin-left:auto;
+	margin-right: auto; 
+}
+nav ul li{
+	display: inline-block;
+	padding: 0px 20px 10px 20px;
+	list-style: none;
+}
+nav ul li a:hover {
+    background-color: #e0e0e0; 
+    text-decoration: none;
+    color: rgba(70, 10, 20, 1) !important ;  
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 6px 35px;   
+    background-color: rgba(70, 10, 20, 1); 
+    margin: 0;  
+    border-radius: 5px; 
+	color: white !important;
+}
+
+nav ul li a.active {
+    background-color: #e0e0e0; 
+    color: rgba(70, 10, 20, 1) !important;
+}
+
+a.active {
+    background-color: #e0e0e0; 
+    color: #780A14; 
+}
+@media (min-width: 1679px) and (min-height: 1049px) {
+    .form-field {
+        margin-top: 3vh; /* Adjust height for very large screens */
+    }
+	.form-heading{
+		height:5vh;
+	}
+}
